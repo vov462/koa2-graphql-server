@@ -13,6 +13,7 @@ const Mutation = {
         }
 
         const id = db.jobs.create({ companyId: user.companyId, ...input });
+
         return db.jobs.get(id);
     }
 };
