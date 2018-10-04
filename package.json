@@ -1,0 +1,22 @@
+{
+  "name": "koa2-graphql-server",
+  "version": "1.0.0",
+  "description": "A simple koa2 server with GraphQL and apollo-server@2",
+  "main": "server.js",
+  "repository": "https://github.com/vov462/koa2-graphql-server.git",
+  "author": "Vladimir Hayrapetyan <vhayrapetyan@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@koa/cors": "2",
+    "apollo-server-koa": "^2.0.0-rc.12",
+    "dotenv": "^6.0.0",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.0",
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "notarealdb": "^0.2.2"
+  }
+}
